@@ -173,7 +173,7 @@ color: #585859;
 
 /* LEAVE A MESSAGE */
 
-.green_mailto {
+.leave_message_area .green_mailto {
     text-decoration: none;
     background-image: linear-gradient(45deg, #21B573,  #217C58);
     padding: 10px 30px;
@@ -185,19 +185,19 @@ color: #585859;
     padding-right: 10%;
     transition: box-shadow .2s ease-in-out;
 }
-.green_mailto:hover{
+.leave_message_area .green_mailto:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.green_mailto a {
+.leave_message_area .green_mailto a {
     font-size: 19px;
     line-height: 38px;
     font-weight: 300;
     color: #ffffff;
 }
-.green_mailto a:hover{
+.leave_message_area .green_mailto a:hover{
     text-decoration: none;
 }
-.green_mailto span {
+.leave_message_area .green_mailto span {
     font-size: 36px;
     line-height: 50px;
     font-weight: 700;
