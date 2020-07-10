@@ -181,8 +181,8 @@ color: #585859;
     color: white;
     padding-top: 35px;
     padding-bottom: 50px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     transition: box-shadow .2s ease-in-out;
 }
 .leave_message_area .green_mailto:hover{
@@ -231,3 +231,15 @@ footer h6{
 .footer_bottom{
 padding: 10px 0;
 }
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    
+.leave_message_area .green_mailto a {
+    font-size: 16px;
+    line-height: 30px;
+}
+.leave_message_area .green_mailto span {
+    font-size: 22px;
+    line-height: 40px;
+}
+  }
